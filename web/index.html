@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能合约安全漏洞案例库</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>🔒 智能合约安全漏洞案例库</h1>
+            <p class="subtitle">面向区块链 / Web3 入门学习者的 Solidity 经典漏洞案例库</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="toolbar">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索漏洞名称、类型、关键词...">
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-severity="all">全部</button>
+                <button class="filter-btn" data-severity="high">🔴 高危</button>
+                <button class="filter-btn" data-severity="medium">🟠 中危</button>
+                <button class="filter-btn" data-severity="low">🟢 低危</button>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="totalCount">0</span>
+                <span class="stat-label">漏洞案例</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="highCount">0</span>
+                <span class="stat-label">高危</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="mediumCount">0</span>
+                <span class="stat-label">中危</span>
+            </div>
+        </section>
+
+        <section class="case-list" id="caseList">
+            <!-- 案例卡片由 JS 动态渲染 -->
+        </section>
+
+        <section class="empty-state" id="emptyState" style="display: none;">
+            <p>😅 没有找到匹配的漏洞案例</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>smart-contract-vuln-case-lib_55 · MIT License · 仅供学习研究使用</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
