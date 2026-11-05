@@ -71,10 +71,11 @@ npx hardhat test
 
 ## 📚 漏洞案例列表
 
-> 当前已收录 **0** 个漏洞案例，持续更新中...
+> 当前已收录 **1** 个漏洞案例（重入攻击 Reentrancy），持续更新中...
 
 | 序号 | 漏洞名称 | 严重程度 | 合约文件 | 文档 |
 | --- | --- | --- | --- | --- |
+| 1 | 重入攻击 (Reentrancy) | 🔴 高危 | [VulnerableBank.sol](contracts/reentrancy/VulnerableBank.sol) | [reentrancy.md](docs/vulnerabilities/reentrancy.md) |
 
 ## 🌐 在线浏览
 
