@@ -71,11 +71,12 @@ npx hardhat test
 
 ## 📚 漏洞案例列表
 
-> 当前已收录 **1** 个漏洞案例（重入攻击 Reentrancy），持续更新中...
+> 当前已收录 **1** 个漏洞案例（整数溢出 Integer Overflow），持续更新中...
 
 | 序号 | 漏洞名称 | 严重程度 | 合约文件 | 文档 |
 | --- | --- | --- | --- | --- |
 | 1 | 重入攻击 (Reentrancy) | 🔴 高危 | [VulnerableBank.sol](contracts/reentrancy/VulnerableBank.sol) | [reentrancy.md](docs/vulnerabilities/reentrancy.md) |
+| 2 | 整数溢出 (Integer Overflow) | 🟠 中危 | [VulnerableToken.sol](contracts/overflow/VulnerableToken.sol) | [integer-overflow.md](docs/vulnerabilities/integer-overflow.md) |
 
 ## 🌐 在线浏览
 
